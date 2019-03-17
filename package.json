@@ -1,0 +1,19 @@
+{
+  "name": "testtask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress open --config baseUrl=http://localhost:3000,integrationFolder=cypress/integration/",
+    "test-ci": "./node_modules/.bin/cypress run --config baseUrl=http://localhost:5000,integrationFolder=cypress/integration/",
+    "search": "./node_modules/.bin/cypress open --config integrationFolder=cypress/integration/search,baseUrl=http://localhost:3000",
+    "navigation": "./node_modules/.bin/cypress open --config integrationFolder=cypress/integration/navigation,baseUrl=http://localhost:3000",
+    "search-ci": "./node_modules/.bin/cypress run --config integrationFolder=cypress/integration/search,baseUrl=http://localhost:5000",
+    "navigation-ci": "./node_modules/.bin/cypress run --config integrationFolder=cypress/integration/navigation,baseUrl=http://localhost:5000"
+  },
+  "author": "Taras Kazydub",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.2.0"
+  }
+}

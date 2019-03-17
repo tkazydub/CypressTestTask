@@ -1,0 +1,34 @@
+{
+  "applicants": [
+    {
+      "first_name": "lloyd",
+      "last_name": "gonzalez",
+      "city": "hereford",
+      "status": "Applied"
+    },
+    {
+      "first_name": "emma",
+      "last_name": "stewart",
+      "city": "worcester",
+      "status": "Applied"
+    },
+    {
+      "first_name": "danielle",
+      "last_name": "moore",
+      "city": "cardiff",
+      "status": "Applied"
+    },
+    {
+      "first_name": "linda",
+      "last_name": "ruiz",
+      "city": "liverpool",
+      "status": "Applied"
+    },
+    {
+      "first_name": "julia",
+      "last_name": "cunningham",
+      "city": "sheffield",
+      "status": "Hired"
+    }
+  ]
+}
